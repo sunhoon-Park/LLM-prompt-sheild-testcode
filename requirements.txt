@@ -8,3 +8,4 @@ scikit-learn==0.23.1
 pytorch-crf==0.7.2
 requests==2.24.0
 flask==1.1.2
+werkzeug>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
